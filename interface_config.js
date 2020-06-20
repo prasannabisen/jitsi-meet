@@ -4,6 +4,7 @@ var interfaceConfig = {
     // TO FIX: this needs to be handled from SASS variables. There are some
     // methods allowing to use variables both in css and js.
     DEFAULT_BACKGROUND: '#474747',
+    DEFAULT_LOGO_URL: 'https://gitcommit.show/assets/img/invide.png',
 
     /**
      * Whether or not the blurred video background for large video should be
@@ -14,10 +15,10 @@ var interfaceConfig = {
     INITIAL_TOOLBAR_TIMEOUT: 20000,
     TOOLBAR_TIMEOUT: 4000,
     TOOLBAR_ALWAYS_VISIBLE: false,
-    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
+    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Attendi',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
     SHOW_JITSI_WATERMARK: true,
-    JITSI_WATERMARK_LINK: 'https://jitsi.org',
+    JITSI_WATERMARK_LINK: 'https://gitcommit.show/',
 
     // if watermark is disabled by default, it can be shown only for guests
     SHOW_WATERMARK_FOR_GUESTS: true,
@@ -28,9 +29,9 @@ var interfaceConfig = {
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
     DISPLAY_WELCOME_PAGE_CONTENT: true,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
-    APP_NAME: 'Jitsi Meet',
-    NATIVE_APP_NAME: 'Jitsi Meet',
-    PROVIDER_NAME: 'Jitsi',
+    APP_NAME: 'Git Commit Show',
+    NATIVE_APP_NAME: 'Git Commit Show',
+    PROVIDER_NAME: 'Git Commit Show',
     LANG_DETECTION: true, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 
@@ -48,10 +49,10 @@ var interfaceConfig = {
      */
     TOOLBAR_BUTTONS: [
         'microphone', 'camera', 'closedcaptions', 'desktop', 'fullscreen',
-        'fodeviceselection', 'hangup', 'profile', 'info', 'chat', 'recording',
-        'livestreaming', 'etherpad', 'sharedvideo', 'settings', 'raisehand',
+        'fodeviceselection', 'hangup', 'profile', 'info', 'chat',
+        'livestreaming', 'etherpad', 'sharedvideo', 'settings',
         'videoquality', 'filmstrip', 'invite', 'feedback', 'stats', 'shortcuts',
-        'tileview', 'videobackgroundblur', 'download', 'help', 'mute-everyone',
+        'tileview', 'download', 'help', 'mute-everyone',
         'e2ee'
     ],
 
