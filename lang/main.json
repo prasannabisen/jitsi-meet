@@ -933,7 +933,7 @@
         "headerSubtitle": "Secure and high quality meetings made by Prasanna and Prinkal",
         "info": "Dial-in info",
         "join": "CREATE / JOIN",
-        "jitsiOnMobile": "Jitsi on mobile – download our apps and start a meeting from anywhere",
+        "jitsiOnMobile": "",
         "moderatedMessage": "Or <a href=\"{{url}}\" rel=\"noopener noreferrer\" target=\"_blank\">book a meeting URL</a> in advance where you are the only moderator.",
         "privacy": "Privacy",
         "recentList": "Recent",
